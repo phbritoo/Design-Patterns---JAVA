@@ -1,0 +1,8 @@
+package br.com.dominio.loja;
+
+import br.com.dominio.venda.VendaFactory;
+
+public class LojaCentroDeInformatica implements VendaFactory {
+
+	
+}

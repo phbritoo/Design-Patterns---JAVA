@@ -1,0 +1,13 @@
+package br.com.dominio.nfe;
+
+import br.com.dominio.model.Produto;
+
+public class NFESaoPaulo implements NFE {
+
+	@Override
+	public double calcularImposto(Produto produto) {
+		// TODO Auto-generated method stub
+		return 0;
+	}
+
+}

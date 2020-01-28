@@ -1,0 +1,43 @@
+package br.com.dominio.builder;
+
+import br.com.dominio.model.Cliente;
+import br.com.dominio.model.Pedido;
+import br.com.dominio.model.Vendendor;
+
+public class PedidoBuilder {
+
+	private Pedido instancia;
+	
+	public PedidoBuilder() {
+		this.instancia = new Pedido();
+	}
+	
+	public PedidoBuilder setPedido(String numeroPedido) {
+		instancia.setNumeroPedido(numeroPedido);
+		return this;
+	}
+	
+	public PedidoBuilder setCliente(int codigo, String nome, String telefone) {
+		Cliente cliente = new Cliente();
+		cliente.setCodigo(codigo);
+		cliente.setNome(nome);
+		cliente.setTelefone(telefone);
+		
+		instancia.setCliente(cliente);
+		
+		return this;
+	}
+	
+	public PedidoBuilder setVendedor(int codigo, String nome) {
+		Vendendor vendendor = new Vendendor();
+		vendendor.setCodigo(codigo);
+		vendendor.setNome(nome);
+		
+		instancia.setVendendor(vendendor);
+		
+		return this;
+	}
+	
+	
+	
+}

@@ -1,0 +1,19 @@
+package br.com.dominio.venda;
+
+import br.com.dominio.boleto.Boleto;
+import br.com.dominio.nfe.NFE;
+import br.com.dominio.nfe.NFESaoPaulo;
+
+public interface VendaFactory {
+	
+	@Override
+	public NFE criarNFE() {
+		NFE notaFiscal = new NFESaoPaulo();
+		
+		return notaFiscal;
+	}
+	
+	@Override
+	public Boleto criarBoleto();
+
+}

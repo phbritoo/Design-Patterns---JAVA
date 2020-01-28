@@ -1,0 +1,6 @@
+package br.com.dominio.mensagem;
+
+public interface Mensagem implements Mensagem{
+
+	public void enviar(String mensagem);
+}

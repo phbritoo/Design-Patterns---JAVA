@@ -1,0 +1,5 @@
+package br.com.dominio.boleto;
+
+public interface Boleto {
+
+}

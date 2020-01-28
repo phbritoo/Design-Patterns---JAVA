@@ -1,0 +1,12 @@
+package br.com.dominio;
+
+public class GerenciadorImpressao {
+
+	//Criar uma variavel estatica do mesmo no da classe
+	private static GerenciadorImpressao gerenciadorImpressao;
+	
+	//Cria um construtor privado sem parametros
+	private GerenciadorImpressao() {
+		
+	}
+}

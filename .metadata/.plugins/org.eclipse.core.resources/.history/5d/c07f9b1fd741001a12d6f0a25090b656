@@ -1,0 +1,26 @@
+package br.com.dominio;
+
+import javax.swing.JOptionPane;
+
+import br.com.dominio.mensagem.Mensagem;
+import br.com.dominio.mensagem.MensagemEmail;
+import br.com.dominio.mensagem.MensagemFactory;
+import br.com.dominio.mensagem.MensagemSMS;
+
+public class Main {
+
+	public static void main(String[] args) {
+
+
+		String texto = JOptionPane.showInputDialog(null);
+
+		//Sem Factory Method
+		//Mensagem mensagem = new MensagemSMS();
+		//mensagem.enviar(texto);
+		//Mensagem mensagemEmail = new MensagemEmail();
+		//mensagemEmail.enviar(texto);
+		
+		Mensagem mensagem = MensagemFactory.getMensagem(1);
+		mensagem.enviar(texto);
+	}
+}

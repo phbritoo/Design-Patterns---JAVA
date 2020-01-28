@@ -1,0 +1,20 @@
+package br.com.dominio;
+
+public class Main {
+
+	public static void main(String[] args) {
+
+		//Os quatros objetos deverao ter o mesmo endereco de memoria
+		GerenciadorImpressao g1 = new GerenciadorImpressao();
+		GerenciadorImpressao g2 = new GerenciadorImpressao();
+		GerenciadorImpressao g3 = new GerenciadorImpressao();
+		GerenciadorImpressao g4 = new GerenciadorImpressao();
+		
+		System.out.println(g1);
+		System.out.println(g2);
+		System.out.println(g3);
+		System.out.println(g4);
+
+	}
+
+}
