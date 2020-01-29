@@ -1,2 +1,29 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<qualifiedTypeNameHistroy/>
+<qualifiedTypeNameHistroy>
+<fullyQualifiedTypeName name="br.com.dominio.GerenciadorImpressao"/>
+<fullyQualifiedTypeName name="br.com.dominio.mensagem.MensagemSMS"/>
+<fullyQualifiedTypeName name="br.com.dominio.mensagem.MensagemEmail"/>
+<fullyQualifiedTypeName name="br.com.dominio.mensagem.Mensagem"/>
+<fullyQualifiedTypeName name="br.com.dominio.mensagem.MensagemFactory"/>
+<fullyQualifiedTypeName name="java.awt.List"/>
+<fullyQualifiedTypeName name="java.util.List"/>
+<fullyQualifiedTypeName name="java.lang.String"/>
+<fullyQualifiedTypeName name="javax.swing.JPanel"/>
+<fullyQualifiedTypeName name="javax.swing.JOptionPane"/>
+<fullyQualifiedTypeName name="br.com.dominio.model.Cliente"/>
+<fullyQualifiedTypeName name="br.com.dominio.model.Vendendor"/>
+<fullyQualifiedTypeName name="java.lang.Process"/>
+<fullyQualifiedTypeName name="java.util.ArrayList"/>
+<fullyQualifiedTypeName name="br.com.dominio.model.Pedido"/>
+<fullyQualifiedTypeName name="br.com.dominio.builder.PedidoBuilder"/>
+<fullyQualifiedTypeName name="javax.swing.text.StyledEditorKit.BoldAction"/>
+<fullyQualifiedTypeName name="java.lang.Override"/>
+<fullyQualifiedTypeName name="br.com.dominio.nfe.NFE"/>
+<fullyQualifiedTypeName name="br.com.dominio.nfe.NFESaoPaulo"/>
+<fullyQualifiedTypeName name="br.com.dominio.boleto.Boleto"/>
+<fullyQualifiedTypeName name="br.com.dominio.model.Produto"/>
+<fullyQualifiedTypeName name="java.math.BigDecimal"/>
+<fullyQualifiedTypeName name="br.com.dominio.venda.VendaFactory"/>
+<fullyQualifiedTypeName name="br.com.dominio.loja.LojaCentroDaInformatica"/>
+<fullyQualifiedTypeName name="br.com.dominio.venda.Venda"/>
+</qualifiedTypeNameHistroy>
